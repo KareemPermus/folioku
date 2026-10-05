@@ -1,0 +1,30 @@
+[
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/hero",
+    "response_shape": {
+      "backgroundImageUrl": "string?",
+      "ctaLink": "string?",
+      "ctaText": "string?",
+      "headline": "string",
+      "id": 1,
+      "subheadline": "string?"
+    },
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/health",
+    "request_body": null,
+    "response_shape": {
+      "status": "string"
+    },
+    "sample_body": null,
+    "sample_params": null,
+    "success_status": 200
+  }
+]
